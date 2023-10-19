@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 120vh;
+    background-image: url(./img/Img.png);
+}
+
+.navbar {
+    height: 120px;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 410px;
+}
+
+.navbar__menu li {
+    margin: 0 20px;
+}
+
+.navbar__menu a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.navbar__btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #381ddb;
+    padding: 18px 34px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 0;
+}
+
+.header__content {
+    height: calc(166vh - 120px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.header__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    max-width: 970px;
+    margin-top: -380px;
+}
+
+.header__color {
+    color: red;
+    opacity: 0.7;
+}
+
+.header__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 40px;
+    max-width: 970px;
+}
+
+.header__btn {
+    margin-top: 40px;
+}
+
+.header__play {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+.header__22d {
+    margin-top: 60px;
+}
+
+.category {
+    margin-top: 120px;
+}
+
+.category__row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 60px;
+}
+
+.category__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 130%;
+}
+
+.text__primary {
+    color: #381ddb;
+}
+
+.category__card {
+    width: 100%;
+    max-width: 370px;
+    padding: 90px 60px 36px;
+    background: #eec99c;
+    position: relative;
+    transform: .3s;
+    border-radius: 24px;
+}
+
+.category__card__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 38px;
+    /* color: #222222; */
+}
+
+.category__card__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    opacity: 0.7;
+    padding-top: 20px;
+}
+
+.category__card__content {
+    z-index: 999999;
+    opacity: 1;
+}
+.category__card:hover{
+    background-color: #381ddb;
+    color: #ffffff !important ;
+}
+.about_music_imgs{
+    margin-left: -100px;
+    margin-top: 190px;
+}
+.Singers{
+    margin-left: -50px;
+}
+.day__imgs{
+    max-width: 1240px;
+    margin-left: -40px;
+}
+.day__title{
+    max-width: 1240px;
+    margin-left: -40px;
+    margin-top: 90px;
+}
+.day__photo{
+    max-width: 1240px;
+    margin-left: -40px;
+    margin-top: 90px;
+}
+.day__photos{
+    max-width: 1240px;
+    margin-left: -35px;
+    margin-top: 90px; 
+}
+.day__gallery{
+    max-width: 1240px;
+    margin-left: -30px;
+    margin-top: 190px; 
+}
